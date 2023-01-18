@@ -2,7 +2,7 @@ package model;
 
 public class Student {
 
-	private int hakbun;
+	private String hakbun;
 	private String name;
 	private String major;
 	private String phone;
@@ -11,7 +11,7 @@ public class Student {
 	public Student() {
 	} // 기본 생성자
 
-	public Student(int hakbun, String name, String major, String phone, String address) {
+	public Student(String hakbun, String name, String major, String phone, String address) {
 		this.hakbun = hakbun;
 		this.name = name;
 		this.major = major;
@@ -19,11 +19,11 @@ public class Student {
 		this.address = address;
 	}// 인자 생성자
 
-	public int getHakbun() {
+	public String getHakbun() {
 		return hakbun;
 	}
 
-	public void setHakbun(int hakbun) {
+	public void setHakbun(String hakbun) {
 		this.hakbun = hakbun;
 	}
 
