@@ -16,7 +16,7 @@ public class List_02 {
 		list.add(500);
 
 		/*
-		 * Iterator 객체 ==> 자바의 컬렉션 프레임워크에서 컬렉션에 저장되어 있는 데이터들을 읽어 오는 방벅을 표준화 해 놓은 객체.
+		 * Iterator 객체 ==> 자바의 컬렉션 프레임워크에서 컬렉션에 저장되어 있는 데이터들을 읽어 오는 방법을 표준화 해 놓은 객체.
 		 */
 
 		Iterator<Integer> it = list.iterator();

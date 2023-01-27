@@ -37,6 +37,10 @@ public class List_06 {
 		 * 
 		 */
 
+//		Iterator it = stack.iterator();
+//
+//		System.out.println(it.next() + "ssdsdd");
+
 		while (!stack.isEmpty()) { // 비어있지 않으면 !
 
 			System.out.println("이 름 >>> " + stack.pop());
